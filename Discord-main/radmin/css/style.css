@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(90deg, rgb(58, 71, 184), rgb(153, 0, 255), violet, purple, rgb(187, 0, 109));
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-size: 200% 200%;
+    animation: grad3 7s ease-in-out infinite;
+}
+.panel{
+    width: 388px;
+    text-align: right;
+    margin-left: -12px;
+    transition: 0.1s ease;
+}
+.panel:hover{
+    background-size: 400% 400%;
+    width: 400px;
+    color: white;
+    background-color: rgb(0, 173, 0);
+}
+nav{
+    top: 0;
+    left: -15%;
+    position: absolute;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 158, 197), rgb(255, 255, 255));
+    height: 100%;
+    width: 20%;
+    transition: 0.5s ease;
+    background-size: 200% 200%;
+    animation: grad4 3s ease-in-out infinite;
+}
+nav:hover{
+    left: 0;
+}
+img{
+    position: relative;
+    left: 12px;
+    vertical-align: middle;
+    width: 120px;
+    transition: 0.1s ease;
+}
+img:hover{
+    width: 150px;
+}
+.panel:nth-child(odd){
+    background: linear-gradient(45deg, rgb(0, 104, 78), rgb(0, 104, 55), rgb(0, 104, 0));
+    animation: grad1 5s ease-in-out infinite;
+    background-size: 400% 400%;
+}
+.panel:nth-child(even){
+    background: linear-gradient(45deg, green, rgb(0, 139, 0), rgb(0, 177, 0));
+    animation: grad2 5s ease-in-out infinite;
+    background-size: 400% 400%;
+}
+@keyframes grad1{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+@keyframes grad2{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+@keyframes grad3{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+@keyframes grad4{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.edi::before, .edi::after{
+    content: '✎';
+}
+.fav::before, .fav::after{
+    content: '❤';
+}
+.his::before, .his::after{
+    content: '⌚';
+}
+.sec::before, .sec::after{
+    content: '⛊';
+}
+.set::before, .set::after{
+    content: '🛠';
+}

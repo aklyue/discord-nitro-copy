@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+
+header{
+    background-color: #23272a;
+    height: 626px;
+    width: 100%;
+    position: absolute;
+}
+.container-head{
+    z-index: 3;
+}
+.img-logo{
+    height: 80px;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    z-index: 3;
+   
+
+}
+.discord-logo{  
+    width: 124px;
+    height: 23.25px;
+    z-index: 3;
+    
+    
+}
+div.nav1:hover{
+    text-decoration:underline;
+}
+div.nav2:hover{
+    text-decoration:underline;
+}
+div.nav3:hover{
+    text-decoration:underline;
+}
+div.nav4:hover{
+    text-decoration:underline;
+}
+div.nav5:hover{
+    text-decoration:underline;
+}
+div.nav6:hover{
+    text-decoration:underline;
+}
+div.nav7:hover{
+    text-decoration:underline;
+}
+button{  
+    height: 38px;
+    width: 112.8px;
+    border-radius: 20px;
+    background-color: white ;
+    border:transparent solid;
+    transition: 0.5s;
+    cursor: pointer;;   
+}
+.buttom{
+    position: relative;
+    z-index: 3;
+}
+.links{
+    display: flex;
+     width: 650px;
+     height: 22px;
+     justify-content: space-evenly;
+     margin-bottom: 25px;  
+     z-index: 3; 
+ }
+ a{
+    text-decoration: none;
+    font-size: 18px;
+    
+    color: white ;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+.button-discord{
+    position: relative;
+    color: black;
+    font-size: 13px;
+    transition: 0.2s ease-in-out;
+   
+}
+.button-discord:hover{
+    
+    font-size: 13px;
+    color: #8865f2;
+    z-index: 3;
+    transition: 0.2s ease-in-out;
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.Header-container{
+    font-size: 25px;
+    color: white;
+    height: 538px;
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px   ;
+    margin: 90px 250px;
+    margin-top: -2%;
+    
+}
+.text-header{
+line-height: 60px;
+
+}
+
+.img-header{
+ width:511px;
+ height:298px; 
+ float: right;
+ 
+ margin: -12% 90px;
+ 
+ 
+}
+.container-button-discord{
+    color: black;
+    position: relative;
+    
+}
+ul{
+    margin-top: 5%;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    color: White;
+    text-align: center;
+
+
+}
+li:before{
+    content:url(img/sss.png);
+    
+   
+    
+}
+
+button.container-button1{
+    height: 56px;
+    width: 293px;
+    border-radius: 30px;
+    background-color:#5865f2;
+    border:transparent solid;
+    cursor: pointer;
+    margin: 24px 24px 0px 0px;
+    margin-top: 1.5%;   
+    transition: 0.2s ease-in-out;
+    position: absolute;
+}
+
+button.container-button1:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #7983f5;
+    
+}
+
+.text-button{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 17%;
+    margin-top: 45px;
+    position: absolute;
+    font-size: 16px;
+}
+.button-container{
+    display: flex;
+}

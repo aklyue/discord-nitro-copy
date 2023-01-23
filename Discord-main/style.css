@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+.discord-logo{  
+    width: 124px;
+    height: 23.25px;
+    z-index: 3;
+    
+    
+}
+.main{
+    overflow: hidden;
+    z-index: 3
+}
+.img-logo{
+    height: 80px;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    z-index: 3;
+   
+
+}
+button{
+    
+    height: 38px;
+    width: 112.8px;
+    border-radius: 20px;
+    background-color: white ;
+    border:transparent solid;
+    transition: 0.5s;
+    cursor: pointer;;
+    
+    
+    
+}
+.button-discord{
+    position: relative;
+    color: black;
+    font-size: 13px;
+    transition: 0.2s ease-in-out;
+   
+}
+button:hover {
+    transition: 0.3s;
+    box-shadow: 0px 5px 20px 8px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+.buttom{
+    position: relative;
+    z-index: 3;
+}
+.button-discord:hover{
+    
+    font-size: 13px;
+    color: #8865f2;
+    z-index: 3;
+    transition: 0.2s ease-in-out;
+}
+
+.links{
+   display: flex;
+    width: 650px;
+    height: 22px;
+    justify-content: space-evenly;
+    margin-bottom: 25px;  
+    z-index: 3; 
+}
+
+
+div.nav1:hover{
+    text-decoration:underline;
+}
+div.nav2:hover{
+    text-decoration:underline;
+}
+div.nav3:hover{
+    text-decoration:underline;
+}
+div.nav4:hover{
+    text-decoration:underline;
+}
+div.nav5:hover{
+    text-decoration:underline;
+}
+div.nav6:hover{
+    text-decoration:underline;
+}
+div.nav7:hover{
+    text-decoration:underline;
+}
+header{
+    background-color: #404eed;
+    height: 626px;
+    position:relative;
+    
+}
+.img-discord-left{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: none;
+    margin-left: -1030px;
+    z-index: 2;
+}
+.img-discord-right{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+    margin-left: 1030px;
+    z-index: 2;
+    
+}
+.img-discord-background{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1280px;
+    z-index: 1;
+}
+.container-head{
+    z-index: 3;
+}
+.discord-los{
+    z-index: 3;
+}
+.text{
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  z-index: 3;
+}
+.texts{
+    
+    font-size: 20px;
+    
+    color: white ;
+    line-height: 1.5;
+}
+h1{
+    color: white ;
+    font-size: 56px;
+    
+}
+.container-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+div>div >button{
+    height: 56px;
+    width: 293px;
+    border-radius: 30px;
+    background-color: white ;
+    border:transparent solid;
+    cursor: pointer;
+    margin: 24px 24px 0px 0px;
+    margin-right: 20%;   
+}
+
+.container-button-discord:hover{
+    
+    
+    color: #8865f2;
+    z-index: 3;
+}
+.container-button-discord{
+    color: black;
+    position: relative;
+    
+}
+ul{
+    margin-top: 5%;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    
+    text-align: center;
+
+
+}
+.Downloader:before{
+    content:url(img/oojs_UI_icon_download.svg);
+   
+    
+}
+.Download:before{
+    content:url(img/sss.png);  
+}
+
+div>div>div>button{
+    height: 56px;
+    width: 293px;
+    border-radius: 30px;
+    background-color:#23272A ;
+    border:transparent solid;
+    cursor: pointer;
+    margin: 24px 24px 0px 0px;
+    margin-left: 20%;   
+    
+}
+.buttons{
+    margin-top: -4.5%;
+}
+.container-button2:hover{
+  background-color:#36393F;
+}
+.content{
+    width: 100%;
+    height: 480px;
+
+}
+.content2{
+    width: 100%;
+    height: 680px;
+   background-color:#F6F6F6;
+}
+.content-img1{
+    margin-top: 5.5%;
+    margin-left: 20%;
+}
+.img-texth1{
+    color: #23272A;
+    
+    margin-top: -20%;
+    margin-left: 60%;
+    font-size: 48px;
+}
+.img-textp{
+    color: #23272A;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 60%;
+    font-size: 20px;
+}
+.img-texth2{
+    color: #23272A;
+    margin-top: 6%;
+    padding: 100px;
+    margin-left: 20%;
+ 
+}
+.img-textp2{
+    color: #23272A;
+    margin-top: -10%;
+    padding: 100px;
+    margin-left: 20%;
+}
+.content-img2{
+    margin-top: -15%;
+    margin-left: 50%;
+    position: absolute;
+}
+.center-texth2 , .just-text , .center-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-upper{
+    height: 1000px;
+    width: 100%;
+    background-color: #F6F6F6;
+    padding: 120px 40px 80px;
+}
+.img-upperfooter{
+    display: block;
+    height: 715px;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+.center-texth2{
+    font-size: 40px;
+}
+.just-text , .center-text{
+    font-size: 20px;
+}
+.under{
+    font-size: 32px;
+   position: absolute;
+    
+}
+.under-top{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 285px;
+    width: 100%;
+    background-color: #F6F6F6;  
+}
+.img-under{
+    position: absolute;
+}
+button.container-button1{
+    height: 56px;
+    width: 293px;
+    border-radius: 30px;
+    background-color:#5865f2;
+    border:transparent solid;
+    cursor: pointer;
+    margin: 24px 24px 0px 0px;
+    margin-top: 5%;   
+    transition: 0.2s ease-in-out;
+}
+button.container-button1:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #7983f5;
+}
+footer{
+    height: 550px;
+    width: 100%;
+    background-color: #23272A;
+    color: #5865f2;
+    
+    
+}
+.Footers{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;   
+    padding: 80px;
+    margin-left: 13%;
+    max-width: 1300px;
+    border-bottom:1px solid #5865f2;
+    
+    
+}
+body {
+    margin: 0px;
+}
+h3{
+    font-size: 32px;
+   margin-top: 0%;
+}
+.select{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -3%;
+}
+select{
+    background-color: #23272A;
+    border: transparent ;
+    color: white;
+    
+}
+.buttomss{
+    margin-left: 80%;
+    margin-top: 0%;
+    position: absolute;
+    background-color: #5865f2;
+    color: white;;
+}
+.all{
+    padding: 30px;
+}
+
+.discordss{
+    margin-left: 15%;
+    position: absolute;
+}
+.Russian{
+    color: white;
+    margin: 8px;
+    
+}
+.icons-footer{
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    max-width:170px;
+}
+.tec{
+    color: white;;
+}
+.button-discord1{
+    position: relative;
+color: rgb(255, 255, 255);
+font-size: 13px;
+
+}
+.button-discord1:hover{
+    font-size: 13px;
+    color: #8865f2;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    
+    color: white ;
+}
+
+
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Noto Sans', sans-serif;
+}
+.tec:hover{
+  cursor: pointer;
+}
+.t:hover{
+  text-decoration: underline;
+}
+.p:hover{
+    text-decoration: underline;
+  }
+  .c:hover{
+    text-decoration: underline;
+  }
+  .g:hover{
+    text-decoration: underline;
+  }
+  .A:hover{
+    text-decoration: underline;
+  }
+  .L:hover{
+    text-decoration: underline;
+  }
+  .M:hover{
+    text-decoration: underline;
+}
+
+
+  .s:hover{
+    text-decoration: underline;
+  }
+  .d:hover{
+    text-decoration: underline;
+  }
+  .f:hover{
+    text-decoration: underline;
+  }
+  .b:hover{
+    text-decoration: underline;
+  }
+  .sa:hover{
+    text-decoration: underline;
+  }
+  .su:hover{
+    text-decoration: underline;
+  }
+  .col:hover{
+    text-decoration: underline;
+  }
+
+  .abo:hover{
+    text-decoration: underline;
+  }
+  .job:hover{
+    text-decoration: underline;
+  }
+  .brand:hover{
+    text-decoration: underline;
+  }
+  .new:hover{
+    text-decoration: underline;
+  }
+
+  .status:hover{
+    text-decoration: underline;
+  }
+
+ 
+  .down:hover{
+    text-decoration: underline;
+  }
+  .Nitro:hover{
+    text-decoration: underline;
+  }
+
+  .img-textp2{
+    font-size: 20px;
+  }
