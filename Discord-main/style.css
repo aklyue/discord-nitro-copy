@@ -7,9 +7,9 @@
     
     
 }
-.main{
+header {
     overflow: hidden;
-    z-index: 3
+    
 }
 .img-logo{
     height: 80px;
@@ -62,6 +62,7 @@ button:hover {
     transition: 0.2s ease-in-out;
 }
 
+
 .links{
    display: flex;
     width: 650px;
@@ -107,7 +108,8 @@ header{
     height: auto;
     width: auto;
     max-width: none;
-    margin-left: -1030px;
+    margin: 0px 0px 0px -1030px;
+    
     z-index: 2;
 }
 .img-discord-right{
@@ -137,11 +139,15 @@ header{
   flex-direction: column;
   width: 100%;
   z-index: 3;
+  margin-left: -8%;
+  
 }
 .texts{
     
     font-size: 20px;
-    
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 28%;
+    margin-left: 35%;
     color: white ;
     line-height: 1.5;
 }
@@ -155,16 +161,18 @@ h1{
   justify-content: center;
   align-items: center;
   padding: 80px;
+  width: 100%;
 }
-div>div >button{
+button.container-button{
     height: 56px;
-    width: 293px;
+    width: 19%;
     border-radius: 30px;
     background-color: white ;
     border:transparent solid;
     cursor: pointer;
     margin: 24px 24px 0px 0px;
-    margin-right: 20%;   
+    margin-right: 20%;
+    padding-right: 20px;   
 }
 
 .container-button-discord:hover{
@@ -189,6 +197,10 @@ li{
 
 
 }
+.Downloader{
+    font-family: 'Noto Sans', sans-serif;;
+    
+}
 .Downloader:before{
     content:url(img/oojs_UI_icon_download.svg);
    
@@ -198,15 +210,18 @@ li{
     content:url(img/sss.png);  
 }
 
-div>div>div>button{
+button.container-button2{
     height: 56px;
-    width: 293px;
+    width: 19%;
     border-radius: 30px;
     background-color:#23272A ;
     border:transparent solid;
     cursor: pointer;
     margin: 24px 24px 0px 0px;
-    margin-left: 20%;   
+    margin-left: 20%;
+    margin-top: 1.5%;  
+    font-family: 'Noto Sans', sans-serif;;
+    
     
 }
 .buttons{
@@ -233,19 +248,24 @@ div>div>div>button{
     color: #23272A;
     
     margin-top: -20%;
-    margin-left: 60%;
+    margin-left: 70%;
     font-size: 48px;
+    max-width: 500px
 }
 .img-textp{
     color: #23272A;
     display: flex;
     margin-top: 0%;
-    margin-left: 60%;
+    margin-left: 70%;
     font-size: 20px;
+    max-width: 400px;
+    font-family: 'Noto Sans', sans-serif;;
 }
 .img-texth2{
     color: #23272A;
     margin-top: 6%;
+    max-width: 450px;
+    font-size: 48px;
     padding: 100px;
     margin-left: 20%;
  
@@ -268,7 +288,7 @@ div>div>div>button{
 }
 .footer-upper{
     height: 1000px;
-    width: 100%;
+    width: 95.4%;
     background-color: #F6F6F6;
     padding: 120px 40px 80px;
 }
@@ -304,6 +324,7 @@ div>div>div>button{
 button.container-button1{
     height: 56px;
     width: 293px;
+  
     border-radius: 30px;
     background-color:#5865f2;
     border:transparent solid;
@@ -323,9 +344,10 @@ footer{
     color: #5865f2;
     
     
+    
 }
 .Footers{
-    display: grid;
+    display: grid !important;
     grid-template-columns: auto auto auto auto auto;   
     padding: 80px;
     margin-left: 13%;
@@ -409,6 +431,12 @@ p{
 h1,h2,h3,h4,h5{
     font-family: 'Noto Sans', sans-serif;
 }
+.main-god{
+    max-height: 1500px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;;
+    
+}
 .tec:hover{
   cursor: pointer;
 }
@@ -485,3 +513,215 @@ h1,h2,h3,h4,h5{
   .img-textp2{
     font-size: 20px;
   }
+.content-img222{
+    margin-top: -3%;
+    width: 100%;
+}
+.img-invite{
+    width: 50%;
+}
+@media screen and (max-width:420px) and (max-height:1000px){
+header{
+    width: 130%;
+   
+    z-index: 1;
+}
+button.container-button {
+    width: 300px;
+    height: 56px;
+    margin-left: -25%;
+}
+button.container-button2{
+    width: 317px;
+    height: 56px;
+    margin-left: -35%;
+    margin-top: 8%;
+}
+.buttom{
+    margin-left: 30%;
+}
+ h1{
+    color: white;
+    font-size: 24px;
+    width: 342px;
+    height: 22.8px;
+    
+    margin-left: -10%
+    
+ }
+ .img-logo{
+    height: 80px;
+    width: 342px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 4%;
+    justify-items: center;
+    justify-content: space-between;
+    
+    z-index: 3;
+   
+
+}
+.img-discord-right {
+    width: 390px;
+    height: 200px;
+   margin-right:20%;
+   
+   
+    
+}
+.img-invite{
+    margin: 24px 0px 0px;
+    width: 342px;
+    height: 221px;
+    margin-left: -20%;
+    
+}
+.img-texth1{
+    font-size: 17px;
+    margin: 50px 30px ;
+    max-width: 150%;
+    padding: 0px 
+    
+}
+.img-textp {
+    
+    font-size: 16px;
+    margin: 30px;
+    padding: 0px  
+}
+
+ div.texts{
+    font-family:sans-serif;
+    font-size: 14px;
+    
+    width: 342px;
+    height: 130px;
+    max-width: 50%;
+    margin-left: -0%
+    
+    
+ }
+ div.text{
+    margin-top: -20%;
+    padding: 56px 24px;
+ }
+ 
+
+div.container-text{
+   padding: 35px;
+}
+.img-discord-left, .img-discord-background , .links{
+   display: none;
+}
+img.content-img222{
+    margin: 24px 0px 0px;
+    width: 342px;
+    height: 221px;
+    margin-left: -60%;
+    margin-top: 30%;
+}
+.img-textp2{
+    padding: 0px;
+    margin: 0px;
+    height: 78px;
+    font-size: 16px;
+   margin-top: 20%;
+   
+}
+.img-texth2{
+padding-top:250px;
+margin-left: -18%;
+
+    font-size: 16px;
+    
+}
+.content2{
+   display: grid;
+   padding: 30px;
+   
+   height:450px;
+   width: 430px;
+   margin-top: 50px;
+   
+}
+
+.tys{
+    height: 78px;
+}
+.cube{
+    width: 366px;
+    height: 237px;
+    margin: 40px 0px 0px -50px;
+}
+.center-texth2{
+    font-size: 20px;
+    text-align: center;
+    margin-left: -40px;
+}
+.footer-upper{
+    padding: 56px 20px  ;
+    
+    width: 414px;
+    height: 450px;
+    margin-top: 50px;
+    
+   
+}
+.just-text , .center-text {
+    float: left;
+    margin: 0px;
+    font-size: 16px;
+    max-width: 370px;
+}
+.img-upperfooter{
+    width: 366px;
+    height: 221px;
+    margin-left: -8px;
+   
+}
+h2.under{
+    float: left;
+    margin-top: -5%;
+    float:left;
+}
+.img-under{
+    display: none;
+}
+button.container-button1{
+    margin-top: 25%;
+    margin-left: 6%;
+}
+footer{
+    width: 414px;
+    height: 920px;
+    padding: 80px 0px 64px;
+    max-width: 414px;
+}
+.Footers{
+    padding: 0px 24px;
+    margin: 0px;
+}
+.main-god{
+    max-height: 800px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 80%;
+    margin-left: -135%;
+}
+.fot1{
+    width: 300px;
+    height: 200px;
+}
+.all{
+    margin-left: -15%;
+}
+.buttomss{
+    margin-left: 70%;
+    margin-top: -2%;
+}
+}
